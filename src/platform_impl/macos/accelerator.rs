@@ -64,7 +64,7 @@ impl Accelerator {
             Code::Tab => "⇥".into(),
             Code::Escape => "\u{001b}".into(),
             // from NSText.h
-            Code::Enter => "\u{0003}".into(),
+            Code::Enter => "\u{000d}".into(),
             Code::Backspace => "\u{0008}".into(),
             Code::Delete => "\u{007f}".into(),
             // from NSEvent.h
